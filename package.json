@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Noah0217/social-network-api-18/issues"
   },
-  "homepage": "https://github.com/Noah0217/social-network-api-18#readme"
+  "homepage": "https://github.com/Noah0217/social-network-api-18#readme",
+  "dependencies": {
+    "mongodb": "^4.1.3"
+  }
 }
