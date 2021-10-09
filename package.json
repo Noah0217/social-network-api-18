@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Noah0217/social-network-api-18#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "mongodb": "^4.1.3"
   }
 }
