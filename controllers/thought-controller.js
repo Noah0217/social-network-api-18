@@ -2,7 +2,7 @@ const { Thought, Users } = require('../models');
 
 //thought routes
 const thoughtController = {
-  addThought({ params, body }, res) {
+  getAllThoughts({ params, body }, res) {
     Thought.create(body)
       .then(({ _id }) => {
         return Users.findOneAndUpdate(
