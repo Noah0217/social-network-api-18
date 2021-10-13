@@ -1,9 +1,9 @@
-const { Users } = require('../models');
+const { User } = require('../models');
 
 //user routes
-const usersController = {
+const userController = {
   getAllUsers(req, res) {
-    Users.find({})
+    User.find({})
       .populate({
         path: 'thought',
         select: '-__v'
@@ -82,8 +82,8 @@ addFriend({ params }, res) {
 },
 
 removeFriend({ params }, res) {
-    Users.findOneAndUpdate(
-      { _id: params.usersId },
+    User.findOneAndUpdate(
+      { _id: params.userId },
       { $pull: { friends: params.friendsId } },
       { new: true }
     ).then(dbSocialData => {
@@ -99,4 +99,4 @@ removeFriend({ params }, res) {
 
 
 
-module.exports = usersController;
+module.exports = userController;

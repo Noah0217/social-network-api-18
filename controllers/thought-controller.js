@@ -1,12 +1,12 @@
-const { Thought, Users } = require('../models');
+const { Thought, User } = require('../models');
 
 //thought routes
 const thoughtController = {
   getAllThoughts({ params, body }, res) {
     Thought.create(body)
       .then(({ _id }) => {
-        return Users.findOneAndUpdate(
-          { _id: params.usersId },
+        return User.findOneAndUpdate(
+          { _id: params.userId },
           { $push: { thought: _id } },
           { new: true }
         );
