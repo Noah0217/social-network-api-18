@@ -2,7 +2,7 @@ const apiRoutes = require('./api');
 const router = require('express').Router();
 
 //api routes
-router.use("api", apiRoutes);
+router.use('/api', apiRoutes);
 
 //error message
 router.use((req, res) => {
