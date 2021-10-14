@@ -2,7 +2,7 @@
 
 <h2>Description<br><h4>A Back-End Apllication thats allwos the user to create and customize users to there liking and stored in MongoDB, the user can also create there own thoughts on users and customize them later if needed.
   
-<h3 align="left">💻Languages and Tools🛠️</h3>
+<h3 align="left">Languages and Tools</h3>
 
 - VS Code
 - Git Bash Terminal
