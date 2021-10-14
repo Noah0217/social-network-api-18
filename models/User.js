@@ -1,5 +1,6 @@
 const { Schema, model } = require('mongoose');
 
+
 //Users Schema
 const UserSchema = new Schema(
     
@@ -14,7 +15,8 @@ const UserSchema = new Schema(
       type: String,
       required: true,
       Unique: true,
-      trim: true
+      trim: true,
+      match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please enter a valid email address']
     },
     thoughts: {
       type: Schema.Types.ObjectId,

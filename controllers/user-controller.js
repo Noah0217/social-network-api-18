@@ -9,7 +9,7 @@ const userController = {
         select: '-__v'
       })
 
-      .select('-__v').then(dbSocialData => res.json(dbSocialData))
+      .select('-__v').then(dbUserData => res.json(dbUserData))
       .catch(err => {
         console.log(err);
         res.sendStatus(400);
@@ -86,12 +86,12 @@ removeFriend({ params }, res) {
       { _id: params.userId },
       { $pull: { friends: params.friendsId } },
       { new: true }
-    ).then(dbSocialData => {
-        if (!dbSocialData) {
+    ).then(dbUserData => {
+        if (!dbUserData) {
           res.status(404).json({ message: 'No ID found' });
           return;
         }
-        res.json(dbSocialData);
+        res.json(dbUserData);
       })
       .catch(err => res.json(err));
   },
