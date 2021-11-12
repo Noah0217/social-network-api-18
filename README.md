@@ -20,14 +20,25 @@
    
   * Run ```npm start``` to run live server.
   
+## Walkthrough Demos  
   
-  ### Post Users Screenshot
-  ![Week 18 create user sc](https://user-images.githubusercontent.com/84366215/137247169-adb392b5-f405-49a0-a470-6644aa999fb7.png)
+## Server start up
+https://user-images.githubusercontent.com/84366215/141408238-12e1b617-e75d-4e55-be3c-cffb3a8a693f.mp4
+
+
+## GET all Users & Thoughts  
+https://user-images.githubusercontent.com/84366215/141409552-b1d465c8-c589-4b41-8703-39eed5034208.mp4
+
   
-  
-  ### Get Thoughts Screenshot
-  ![week 18 get thoughts sc](https://user-images.githubusercontent.com/84366215/137247511-5029feaf-f0be-4a3f-8e2f-e3764ab34fa5.png)
-  
-  
-### Terminal message when user is created
- ![user created](https://user-images.githubusercontent.com/84366215/137247777-c050c5bb-d8a4-4c78-82a3-caaf2ba47522.png)
+## GET A single USER & Thought by ID   
+https://user-images.githubusercontent.com/84366215/141409824-89ecc4cf-e99d-4de3-9651-41d46a07c990.mp4
+
+
+## Creating an User  
+https://user-images.githubusercontent.com/84366215/141410115-84a79870-f322-40d6-a152-5e33cbfc1db8.mp4
+
+## Updating an User using PUT
+https://user-images.githubusercontent.com/84366215/141410370-35f76b51-05ca-4889-b3ba-3f9b279e545b.mp4
+
+## Deleting an User using DEL
+https://user-images.githubusercontent.com/84366215/141410528-8cf24e7e-6954-4b78-a8cd-ba5158ca50e4.mp4
