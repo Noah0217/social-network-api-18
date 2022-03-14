@@ -9,8 +9,8 @@
 - Insomnia
 - MongoDB/Compass
 - JavaScript
-- Node.Js
-- Express
+- Node.js
+- Express.js
 
 <h3 align="left">Installation</h3>
    
